@@ -1,0 +1,102 @@
+﻿/*
+    CH08-320142
+    a2_p6.cpp
+    Tudor Cristian Maiereanu
+    t.maiereanu@jacobs-university.de
+*/
+
+testcritter.cpp: In function ‘int main(int, char**)’:
+testcritter.cpp:11:2: error: ‘string’ was not declared in this scope
+  string name;
+  ^
+testcritter.cpp:11:2: note: suggested alternatives:
+In file included from /usr/include/c++/5/iosfwd:39:0,
+                 from /usr/include/c++/5/ios:38,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from testcritter.cpp:1:
+/usr/include/c++/5/bits/stringfwd.h:74:33: note:   ‘std::__cxx11::string’
+   typedef basic_string<char>    string;
+                                 ^
+since using namespace std is removed but string is included in this namespace
+the compiler does not recognize the function of string.
+Solution: std::string or using namespace std
+--------------------------------------------------------------------
+/usr/include/c++/5/bits/stringfwd.h:74:33: note:   ‘std::__cxx11::string’
+testcritter.cpp:14:2: error: ‘cout’ was not declared in this scope
+  cout << endl << "Please enter data: " << endl;
+  ^
+testcritter.cpp:14:2: note: suggested alternative:
+In file included from testcritter.cpp:1:0:
+/usr/include/c++/5/iostream:61:18: note:   ‘std::cout’
+   extern ostream cout;  /// Linked to standard output
+                  ^
+since using namespace std is removed but cout is included in this namespace
+the compiler does not recognize the function of cout.
+Solution: std::cout or using namespace std
+--------------------------------------------------
+testcritter.cpp:14:10: error: ‘endl’ was not declared in this scope
+  cout << endl << "Please enter data: " << endl;
+          ^
+testcritter.cpp:14:10: note: suggested alternative:
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from testcritter.cpp:1:
+/usr/include/c++/5/ostream:590:5: note:   ‘std::endl’
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^
+since using namespace std is removed but endl is included in this namespace
+the compiler does not recognize the function of endl.
+Solution: std::endl or using namespace std
+---------------------------------------------------------
+testcritter.cpp:18:10: error: ‘cin’ was not declared in this scope
+  getline(cin, name);
+          ^
+testcritter.cpp:18:10: note: suggested alternative:
+In file included from testcritter.cpp:1:0:
+/usr/include/c++/5/iostream:60:18: note:   ‘std::cin’
+   extern istream cin;  /// Linked to standard input
+                  ^
+since using namespace std is removed but cin is included in this namespace
+the compiler does not recognize the function of cin.
+Solution: std::cin or using namespace std
+----------------------------------------------------------
+testcritter.cpp:18:15: error: ‘name’ was not declared in this scope
+  getline(cin, name);
+               ^
+since name is supposed to be a string but is not defined due to the above reasons
+it gives you an error bc it doesnt know what name is.
+------------------------------------------------------------
+testcritter.cpp:18:19: error: ‘getline’ was not declared in this scope
+  getline(cin, name);
+                   ^
+testcritter.cpp:18:19: note: suggested alternative:
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from testcritter.cpp:1:
+/usr/include/c++/5/bits/basic_string.h:5212:5: note:   ‘std::getline’
+     getline(basic_istream<_CharT, _Traits>& __is,
+     ^
+since using namespace std is removed but getline is included in this namespace
+the compiler does not recognize the function of getline.
+Solution: std::getline or using namespace std
+--------------------------------------------------------
+Critter.cpp:6:23: error: variable or field ‘setName’ declared void
+ void Critter::setName(string& newname) {
+                       ^
+since we are passing a undefined variable this gives us an error
+------------------------------------------------------------
+Critter.cpp:6:31: error: ‘newname’ was not declared in this scope
+ void Critter::setName(string& newname) {
+                               ^
+variable is not declared as a string and therfore cant be passed.
+------------------------------------------------------------------
+Critter.cpp: In function ‘void setName(std::__cxx11::string&)’:
+Critter.cpp:6:2: error: ‘name’ was not declared in this scope
+  name = newname;
+  ^
+Since we removed the Critter prefix the function does not know what the name
+variable is since it is only initialized inside the Crittter.h

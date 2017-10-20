@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1480336323 source:c:\users\tudor\desktop\sem 1\oop\l3\a3_p2\main.cpp
+	<iostream>
+	<cstdlib>
+	"Critter.h"
+
+1480335890 c:\users\tudor\desktop\sem 1\oop\l3\a3_p2\include\critter.h
+	<string>
+
+1480336349 source:c:\users\tudor\desktop\sem 1\oop\l3\a3_p2\src\critter.cpp
+	<iostream>
+	<string>
+	"Critter.h"
+

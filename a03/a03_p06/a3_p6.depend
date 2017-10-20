@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1480342466 source:c:\users\tudor\desktop\sem 1\oop\l3\a3_p6\main.cpp
+	<iostream>
+	<cstdlib>
+	"Complex.h"
+
+1480342607 c:\users\tudor\desktop\sem 1\oop\l3\a3_p6\include\complex.h
+	<string>
+
+1480342511 source:c:\users\tudor\desktop\sem 1\oop\l3\a3_p6\src\complex.cpp
+	<iostream>
+	"Complex.h"
+

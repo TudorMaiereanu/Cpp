@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1480337475 source:c:\users\tudor\desktop\sem 1\oop\l3\a3_p4\main.cpp
+	<iostream>
+	<cstdlib>
+	"Critter.h"
+
+1480337475 c:\users\tudor\desktop\sem 1\oop\l3\a3_p4\include\critter.h
+	<string>
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1480006138 source:c:\users\tudor\desktop\sem 1\oop\l3\a3_p1\main.cpp
+	<iostream>
+	"City.h"
+
+1480006138 c:\users\tudor\desktop\sem 1\oop\l3\a3_p1\include\city.h
+	<string>
+
+1480006138 source:c:\users\tudor\desktop\sem 1\oop\l3\a3_p1\src\city.cpp
+	"City.h"
+	<iostream>
+

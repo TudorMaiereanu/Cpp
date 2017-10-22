@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1480088791 source:c:\users\tudor\desktop\sem 1\oop\l4\a4_p1\main.cpp
+	<iostream>
+	<cstdlib>
+	"Box.h"
+
+1480088661 c:\users\tudor\desktop\sem 1\oop\l4\a4_p1\include\box.h
+
+1480088661 source:c:\users\tudor\desktop\sem 1\oop\l4\a4_p1\src\box.cpp
+	<iostream>
+	"Box.h"
+

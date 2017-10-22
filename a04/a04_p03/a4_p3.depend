@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1480411873 source:c:\users\tudor\desktop\sem 1\oop\l4\a4_p3\main.cpp
+	<iostream>
+	<cstdlib>
+	<string.h>
+	"Creature.h"
+
+1480411873 c:\users\tudor\desktop\sem 1\oop\l4\a4_p3\include\creature.h
+	<string>
+

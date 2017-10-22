@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1480464931 source:c:\users\tudor\desktop\sem 1\oop\l4\a4_p5\main.cpp
+	<iostream>
+	"Shapes.h"
+
+1480464931 c:\users\tudor\desktop\sem 1\oop\l4\a4_p5\include\shapes.h
+	<string>
+
+1480464931 source:c:\users\tudor\desktop\sem 1\oop\l4\a4_p5\src\shapes.cpp
+	<iostream>
+	"Shapes.h"
+

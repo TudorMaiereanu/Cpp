@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1480493820 source:c:\users\tudor\desktop\sem 1\oop\l4\a4_p6\main.cpp
+	<iostream>
+	"Vector.h"
+
+1480493820 c:\users\tudor\desktop\sem 1\oop\l4\a4_p6\include\vector.h
+	<iostream>
+
+1480493820 source:c:\users\tudor\desktop\sem 1\oop\l4\a4_p6\src\vector.cpp
+	<iostream>
+	"Vector.h"
+	<math.h>
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1480944175 source:c:\users\tudor\desktop\sem 1\oop\l5\a5_p2\main.cpp
+	"TournamentMember.h"
+	<iostream>
+
+1480944168 c:\users\tudor\desktop\sem 1\oop\l5\a5_p2\include\tournamentmember.h
+	<cstring>
+	<iostream>
+
+1480930534 source:c:\users\tudor\desktop\sem 1\oop\l5\a5_p2\src\tournamentmember.cpp
+	<iostream>
+	<cstring>
+	"TournamentMember.h"
+

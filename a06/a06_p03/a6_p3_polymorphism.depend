@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1481042828 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\main.cpp
+	<iostream>
+	"Area.h"
+	"Circle.h"
+	"Ring.h"
+	"Rectangle.h"
+	"Square.h"
+
+1481037427 c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\include\area.h
+
+1481037427 c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\include\circle.h
+	"Area.h"
+
+1481037427 c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\include\ring.h
+	"Circle.h"
+
+1481037427 c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\include\rectangle.h
+	"Area.h"
+
+1481042125 c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\include\square.h
+	"Rectangle.h"
+
+1481037331 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\src\area.cpp
+	<iostream>
+	<cstring>
+	"Area.h"
+
+1481037331 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\src\circle.cpp
+	<iostream>
+	"Circle.h"
+
+1481037331 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\src\rectangle.cpp
+	<iostream>
+	"Rectangle.h"
+
+1481037331 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\src\ring.cpp
+	<iostream>
+	"Ring.h"
+
+1481042118 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p3_polymorphism\src\square.cpp
+	"Square.h"
+	<iostream>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480692877 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p1\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

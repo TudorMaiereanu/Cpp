@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1481043373 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\src\area.cpp
+	<iostream>
+	<cstring>
+	"Area.h"
+
+1481043181 c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\include\area.h
+
+1481045007 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\src\circle.cpp
+	<iostream>
+	"Circle.h"
+
+1481043209 c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\include\circle.h
+	"Area.h"
+
+1481045007 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\src\rectangle.cpp
+	<iostream>
+	"Rectangle.h"
+
+1481043235 c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\include\rectangle.h
+	"Area.h"
+
+1481045007 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\src\ring.cpp
+	<iostream>
+	"Ring.h"
+
+1481043261 c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\include\ring.h
+	"Circle.h"
+
+1481045007 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\src\square.cpp
+	"Square.h"
+	<iostream>
+
+1481043292 c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\include\square.h
+	"Rectangle.h"
+
+1481074530 source:c:\users\tudor\desktop\sem 1\oop\l6\a6_p4\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Area.h"
+	"Circle.h"
+	"Ring.h"
+	"Rectangle.h"
+	"Square.h"
+

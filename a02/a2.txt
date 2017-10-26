@@ -1,0 +1,61 @@
+1.
+Write a program which does the following:
+1. reads two floats from the keyboard,
+2. prints the sum of the two floats on the screen,
+3. prints the difference of the two floats (the order should be second 􀀀 first) on the screen,
+4. prints the square of the first float on the screen,
+5. reads two integers from the keyboard,
+6. computes the sum and product of the two integers,
+7. prints the sum, and the product of the integers on the screen,
+8. reads two chars from the keyboard,
+9. computes the sum and product of the two chars,
+10. prints the sum and product of the chars as decimal values and as chars on the screen.
+
+
+***************************************************************************************************
+
+
+2.
+Write a program which does the following:
+1. reads an integer from the keyboard,
+2. and prints the integer in decimal, octal and hexadecimal notation.
+
+
+***************************************************************************************************
+
+
+3.
+Write a program where you can enter three values representing hours, minutes and seconds as
+input from the keyboard. Your program should compute and output by printing on the screen
+the total number of seconds corresponding to the total amount of time expressed by the three
+previous values.
+
+
+***************************************************************************************************
+
+
+4.
+Write a program that converts Centigrades (also known as Celsius) to Fahrenheit. You should be
+able to enter a number from the keyboard representing the Celsius valus, then the result should
+be computed and printed on the screen according to the following transformation formula:
+F = 9*C/5 + 32
+
+
+***************************************************************************************************
+
+
+5.
+Write a program which reads an integer variable val from the keyboard and prints the value on
+the screen. Then declare and initialize a pointer ptr_val to val, print the address contained in
+ptr_val on the screen, increment (i.e., add 1 to it) the value of val by using the pointer variable
+and print the modified value and the address on the screen as well.
+
+
+***************************************************************************************************
+
+
+6.
+Write a program which reads two float variables a and b from the keyboard. Then declare and
+initialize three pointers ptr1, ptr2 and ptr3 such that ptr1 and ptr2 will both point to the
+variable a and ptr3 will point to b. By using printf show that ptr1 and ptr2 contain the
+same memory address and ptr3 contains a different address.

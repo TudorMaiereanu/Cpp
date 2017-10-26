@@ -1,0 +1,134 @@
+1.
+The program below should compute and print the length of a string. Why does it always print the
+length of 0 independently from the input string? Fix the program such that it prints the correct
+length. Formulate your answer to the question and explain your fix within a comment.
+
+#include <stdio.h>
+int length(char str[]) {
+  int idx;
+  /* Loop until end of string */
+  for (idx = 0; str[idx] != ’\0’; ++idx)
+    /* do nothing */
+    return idx;
+}
+
+int main() {
+  char line[100];
+  while(1) {
+    printf("Enter string:\n");
+    fgets(line, sizeof(line), stdin);
+    printf("Length (including newline) is: %d\n", length(line));
+  }
+  return 0;
+}
+
+
+*************************************************************************************************
+
+
+2.
+Write a program that converts a value that is entered from the keyboard in millimeters to meters.
+For solving this problem write and call a function double convert(int mm) that does the
+actual conversion. Print the result of the conversion from the main function.
+
+
+*************************************************************************************************
+
+
+3.
+Write a program that converts the US units of mass (ounces and pounds) to kilograms. First
+read the weight of an object expressed by two values for pounds and ounces from the keyboard
+and then convert the units of mass using the function below as one value corresponding to the
+converted sum of the two previous values (written by you as well)
+
+double to_kilogram(int pound, int ounce);
+
+that does the actual conversion. Print the result on the screen from the main function. Note that:
+1 pound = 453:6 g; 1 ounce = 28:350 g
+
+
+*************************************************************************************************
+
+
+4.
+Write a program which reads two integers n and m, and a character c from the keyboard. This
+program should define and call a function with the prototype:
+
+void print frame(int n, int m, char c);
+
+which prints a frame of size n x m consisting of the character c and space.
+
+
+*************************************************************************************************
+
+
+5.
+Write a program where you can enter up to 8 integers from the keyboard. If the number entered
+is equal to -99, stop reading numbers from the keyboard and compute the sum and average of
+all values (excluding -99) using two functions (one for the sum and one for the average). You
+have to write these functions as well. Print your results on the screen from the main function.
+You can safely assume that the input will be valid.
+Make sure you consider all the cases: less than 8 numbers or exactly 8 numbers might be entered.
+After all the numbers have been entered you need to make sure that the sum and average are
+computed.
+
+
+*************************************************************************************************
+
+
+6.
+Write a program which reads an integer value n followed by n other integer values as elements
+of an array with not more than 50 elements. Write also a function with the prototype:
+
+int posmin(int v[], int n);
+
+which determines and returns the position of the minimum value of v. Print the elements of the
+array separated by space and then on a new line the position of the minimum value on the screen
+from the main function.
+
+
+*************************************************************************************************
+
+
+7.
+Write a program which reads two double values from the keyboard. Then write three functions.
+The first function should return the sum of the two double values and should have the prototype:
+
+double sum(double a, double b);
+
+The second function should “return” by address the sum of the two double values and should
+have the prototype:
+
+void sumbyref(double a, double b, double *s);
+
+The third function should swap the two double values and “return” their modification by address.
+It should have the prototype:
+
+void swapbyref(double *a, double *b);
+
+Show that the calls of the first two functions have the same effect. Also show what is the effect of
+calling swapbyref.
+
+
+*************************************************************************************************
+
+
+8.
+Write a program where you can enter two strings s1 and s2 from the keyboard. You can assume
+that the input strings will not be longer than 100 characters. The program should do the
+following:
+1. Print on the screen the correct lengths of both strings,
+2. Print on the screen the concatenation of s1 with s2,
+3. Declare a third string, copy s1 into it and print the third string on the screen,
+4. Compare the two strings s1 and s2 and print a corresponding message on the screen,
+5. Read a character c from the keyboard and search for c in s1. The position of the first
+occurrence of c within s1 should be printed on the screen. If the character is not contained
+in the string then print a corresponding message on the screen.
+
+
+*************************************************************************************************
+
+
+9.
+Modify your solution for Problem 8 such that all occurrences of the character c can be detected
+in s1. All positions of occurrence should be printed on the screen.

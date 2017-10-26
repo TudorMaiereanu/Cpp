@@ -1,0 +1,87 @@
+1.
+Fix the program below such that it prints the correct result. Why is the result 0.000? Write your
+answer and explanations within comments.
+
+#include <stdio.h>
+
+int main() {
+  float answer; /* The result of our calculation */
+  answer = 1/8;
+  printf("The value of 1/8 is %f\n", answer);
+  return 0;
+}
+
+
+*****************************************************************************************************
+
+
+2.
+Fix the program below such that it prints the correct value. Why does the program print “The
+result is -1073745604”? (Values will vary). Write your answer and explanations within
+comments.
+
+#include <stdio.h>
+
+int main() {
+  int answer; /* The result of our calculation */
+  answer = 3 + 12;
+  printf("The answer is %d\n");
+  return 0;
+}
+
+
+*****************************************************************************************************
+
+
+3.
+You will get compiler errors, when you try to compile the example code given below.
+Read the error messages that the compiler produces and fix the errors such that your source code
+compiles successfully. Then fix the program to print the correct result. Explain within comments
+the reason of the errors and describe your fixes.
+
+include <stdio.h>
+
+int main() {
+  double result; /* The result of the division */
+  int divisor = 22.0;
+  result = 7 / divisor;
+  printf("The result is %d\n", result);
+  return 0;
+}
+
+
+*****************************************************************************************************
+
+
+4.
+Write a program which does the following:
+1. assigns 37 to an integer variable a and 14 to an integer variable b,
+2. computes the sum of a and b and prints the result,
+3. computes the product of a and b and prints the result,
+4. computes the difference of a and b (in this order) and prints the result,
+5. computes the division of a and b (in this order) and prints the result (the result should be a
+double),
+6. computes the remainder of the division of a and b (in this order) and prints the result,
+7. prints the values of a and b.
+
+
+*****************************************************************************************************
+
+
+5.
+Write a program which:
+1. declares and initializes an integer variable a with 478, and prints the value of a over 9
+places,
+2. declares and initializes a float variable b with 􀀀29:7949954, and prints the value of b over
+11 places and with a floating point precision of 3,
+3. declares and initializes a char variable c with ’j’, and prints the character on the screen,
+4. declares and initializes a double variable d with 946:3969843, and prints the value of d with
+a floating point precision of 5.
+
+
+*****************************************************************************************************
+
+
+6.
+Write a program which declares and initializes a char variable called letter with ’P’ and prints
+it on the screen as a character and as corresponding ASCII code separated by space.

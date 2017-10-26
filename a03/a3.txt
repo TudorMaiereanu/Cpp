@@ -1,0 +1,102 @@
+1.
+The program below prints
+n is 2
+n is 2
+...
+until you stop the execution by pressing Ctrl-C. Fix the program such that it prints 2, 3, 4 and 5
+as values for n.
+
+#include <stdio.h>
+int main() {
+  int n = 2;
+  while (n < 6)
+    printf("n is %d\n", n);
+    n++;
+  printf("That’s it.\n");
+  return 0;
+}
+
+
+****************************************************************************************************
+
+
+2.
+Write a program, where you can enter an integer from the keyboard. Determine whether the
+number is divisible by both 4 and 7. Depending on the outcome print on the screen
+“The number is divisible by 4 and 7” or
+“The number is not divisible by both 4 and 7”.
+
+
+****************************************************************************************************
+
+
+3.
+Write a program where you can enter a character from the keyboard. Then determine whether
+the character is a lowercase alphabetic character or not and print a corresponding message on the
+screen.
+
+
+****************************************************************************************************
+
+
+4.
+Write a program where you can enter an integer n from the keyboard. Then a “conversion table”
+for 1 to n minutes should be printed on the screen as in the example below. Make sure that
+the integer value you entered for n is valid (positive and non-zero). If an invalid integer n was
+entered then repeat the entering until a valid value will be entered.
+You must use a while loop to print the conversion table. The output has to be precisely formatted
+as in the example.
+
+1 minute is 60 seconds
+2 minutes are 120 seconds
+3 minutes are 180 seconds
+...
+
+
+****************************************************************************************************
+
+
+5.
+In your solution for Problem 3.4 replace the while loop for generating the output by a for loop
+such that the program will have the same functionality.
+
+
+****************************************************************************************************
+
+
+6.
+Write a program where you first enter a character ch and then an integer n from the keyboard.
+Print the character ch on the screen n times separated by space. Make sure that n will have a
+valid integer value (i.e., cannot be negative). In the invalid case repeat entering n until a valid
+value will be entered.
+
+
+****************************************************************************************************
+
+
+7.
+Write a program where you first enter an uppercase character ch and then an integer n from the
+keyboard. Print the characters corresponding to ch, ch+1, ..., ch+n on the screen separated by
+newline.
+You can safely assume that ch is an uppercase character and n is greater than 0 and less or equal
+than 32.
+
+
+****************************************************************************************************
+
+
+8.
+Add checks to your solution for Problem 3.7 such that the program prints corresponding messages
+and stops the execution (by return 1 in the main function) if ch is not an uppercase
+alphabetic character or if n is greater than 32 or less or equal than 0.
+
+
+****************************************************************************************************
+
+
+9.
+Write a program where you first enter from the keyboard a character c followed by an integer n,
+and n float values representing grades. Use an array for storing the grades. You can assume that
+not more than 50 grades will be entered. Your program should compute and print the following
+on the screen: if c is ’s’ then the sum of the grades, if c is ’p’ then the product of the grades and
+if another character was entered then the arithmetic mean (or average) of all grades.
